@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background: url(background.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header {
+    height: 100px;
+    display: flex; 
+    align-items: center;
+}
+.logo, {
+    width: 100%;
+    float: left;
+}
+.title {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+}
+#menu {
+    border: medium solid black;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+    height: 80px;
+    width: 29%;
+    background: #D5D5D5;
+}
+#chat {
+    border: medium solid black;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+    height: 600px;
+    float: left;
+    width: 29%;
+    background: #8A9597;
+}
+#warning {
+    color: red;
+}
+#contant {
+    border: medium solid black;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+    height: 600px;
+    float: right;
+    width: 70%;
+    background: #E5E4E2;
+}
+#footer {
+    border: medium solid black;
+    border-radius: 10px; 
+    height: 90px;
+    background: #C9C0BB;
+}
+.clear {
+    clear: both;
+}
+#social{
+    height: 30px;
+    width: 30px;
+    float: right;
+}
